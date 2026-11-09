@@ -1,0 +1,13 @@
+register --username alice --password 1234
+login --username alice --password 1234
+deposit --amount 10000
+show-rates
+buy --currency BTC --amount 0.01
+show-portfolio
+sell --currency BTC --amount 0.005
+get-rate --from BTC --to USD
+sell --currency BTC --amount 99
+get-rate --from ABC --to USD
+update-rates
+show-rates --top 2
+exit
